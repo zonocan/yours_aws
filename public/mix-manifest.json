@@ -2,11 +2,13 @@
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
     "/css/review.css": "/css/review.css",
+    "/css/create_review_files.css": "/css/create_review_files.css",
     "/css/review_header.css": "/css/review_header.css",
     "/css/review_header_btns.css": "/css/review_header_btns.css",
     "/css/navbar.css": "/css/navbar.css",
     "/css/nav_btn.css": "/css/nav_btn.css",
     "/css/footer.css": "/css/footer.css",
+    "/js/create_reviews_files.js": "/js/create_reviews_files.js",
     "/js/nav_bar.js": "/js/nav_bar.js",
     "/js/nav_btn.js": "/js/nav_btn.js"
 }

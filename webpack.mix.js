@@ -11,10 +11,14 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js').js( 'resources/js/nav_bar.js', 'public/js').js( 'resources/js/nav_btn.js', 'public/js')
-.autoload( {"jquery":[ '$', 'window.jQuery'], } )
+mix.js('resources/js/app.js', 'public/js').js( 'resources/js/nav_bar.js', 'public/js')
+    .js( 'resources/js/nav_btn.js', 'public/js')
+    .js( 'resources/js/create_reviews_files.js', 'public/js')
+    .autoload( {"jquery":[ '$', 'window.jQuery'], } )
+
     .sass('resources/sass/app.scss', 'public/css')
     .sass('resources/sass/review.scss', 'public/css')
+    .sass('resources/sass/create_review_files.scss', 'public/css')
     .sass('resources/sass/review_header.scss', 'public/css')
     .sass('resources/sass/review_header_btns.scss', 'public/css')
     .sass('resources/sass/navbar.scss', 'public/css')

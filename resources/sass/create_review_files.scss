@@ -55,58 +55,53 @@ html {}
   box-sizing: border-box;
 }
 
-/* ヘッダー部分のコーディング */
+.profeal_file {
+  height: 35px;
+  border-radius: 50%;
+}
 
-header{
-  background-color: #000;
+/**/
+.review_files {
   width: 100%;
-  height: 50px;
-  top: 0;
-  z-index: 1500;
-  position: fixed;
+  height: 450px;
+  background-color: black;
 }
 
-.left_side {
-  height: 40px;
-  background-color: white;
-  clip-path: polygon(-2000% 100%, 17.5% 0%, 82.5% 0%, 100% 100%);
+input[type="file"] {
+  display: none;
 }
 
-
-.navbar {
-  height: 50px;
-}
-
-.nav-link{
+.h4 {
   color: #fff;
-  font-size: 18px;
 }
 
-.header_ui_btn{
-  height: 20px;
+.file_btn {
+  margin: 160px auto;
 }
 
-.header_ui_btn:hover{
-  opacity: 0.5;
+#preview img {
+  margin: 0 auto;
+  max-width: 100%;
+  margin-bottom: 20px;
 }
 
-/* タブレッドの表示 */
-@media (max-width: 768px){
+#preview img {
+  margin: 0 auto;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
 
-  .header_ui_btn{
-    height: 17px;
+
+@media (max-width: 768px) {
+
+  .review_files {
+    width: 100%;
+    height: 350px;
+    background-color: black;
   }
 
-  .header_back_btn svg {
-    color: #fff;
+  .file_btn {
+    margin: 120px auto;
   }
-
-  .header_back_btn svg:hover {
-    opacity: 0.5;
-  }
-
-  .left_side {
-    clip-path: polygon(100% 0%, 0% 0%, 20% 100%, 80% 100%);
-  }
-
+  
 }
