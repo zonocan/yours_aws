@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  text-align: left;
+  list-style-type: none;
+  border-collapse: collapse;
+}
+
+textarea {
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+img {
+  border-style: none;
+  display: block;
+}
+
+hr {
+  display: none;
+}
+
+em {
+  font-style: normal
+}
+
+input {
+  line-height: auto;
+  vertical-align: middle;
+}
+
+strong.more {
+  color: #c30
+}
+
+a {
+  text-decoration: none;
+}
+
+html {}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ヘッダー部分のコーディング */
+
+header{
+  background-color: #000;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  z-index: 1500;
+  position: fixed;
+}
+
+.left_side {
+  height: 40px;
+  background-color: white;
+  clip-path: polygon(-2000% 100%, 17.5% 0%, 82.5% 0%, 100% 100%);
+}
+
+
+.navbar {
+  height: 50px;
+}
+
+.nav-link{
+  color: #fff;
+  font-size: 18px;
+}
+
+.btn{
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #04e3d0;
+}
+
+.header_ui_btn{
+  height: 20px;
+}
+
+.header_ui_btn:hover{
+  opacity: 0.5;
+}
+
+/* タブレッドの表示 */
+@media (max-width: 768px){
+
+  .header_ui_btn{
+    height: 17px;
+  }
+
+  .header_back_btn svg {
+    color: #fff;
+  }
+
+  .header_back_btn svg:hover {
+    opacity: 0.5;
+  }
+
+  .left_side {
+    clip-path: polygon(100% 0%, 0% 0%, 20% 100%, 80% 100%);
+  }
+
+}

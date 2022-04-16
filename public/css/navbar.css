@@ -1,0 +1,36 @@
+.nav_bar {
+  width: 30%;
+  height: 400px;
+  background-color: #000;
+  position: fixed;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #90000e;
+}
+
+.nav_profeal_file {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.nav_ui_btn {
+  height: 30px;
+  width: 30px;
+}
+
+.close_side_nav_btn {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  background-color: #90000e;
+  color: white;
+  border: none;
+  margin: 3px 0 0 92%;
+}
+

@@ -1,0 +1,34 @@
+.footer{
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  position: fixed;
+  bottom: 0;
+}
+
+.inner{
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  background-color: white;
+  clip-path: polygon(0% 100%, 14.5% 0%, 85.5% 0%, 100% 100%);
+}
+
+.footer_ui_btn {
+  height: 22px;
+  width: 100%;
+}
+
+.footer_profel{
+  height: 22px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.footer_btn_line {
+  height: 8px;
+  width: 50%;
+  background-color: #90000e;
+  border-radius: 50%;
+}
+
