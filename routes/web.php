@@ -24,3 +24,7 @@ Route::group(['prefix' => 'admin'], function() {
 Route::group(['prefix' => 'admin'], function() {
     Route::get('reviews/create_review_files', 'Admin\ReviewsFilesController@add');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
