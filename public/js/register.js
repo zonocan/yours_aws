@@ -11006,6 +11006,9 @@ return jQuery;
     $('#profeal_file').remove();
     $('#profeal_file_new').attr('id', 'profeal_file_new');
   });
+  $('#register_btn').click(function () {
+    $('#create_acount_form').submit();
+  });
 });
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")))
 

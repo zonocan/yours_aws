@@ -26,5 +26,11 @@ $(function() {
       $('#profeal_file_new').attr('id', 'profeal_file_new')
     }
   )
+  
+  //スマホの時の登録ボタン
+  $('#register_btn').click(function() {
+    $('#create_acount_form').submit();
+  })
+  
 
 });

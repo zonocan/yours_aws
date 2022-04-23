@@ -1,0 +1,76 @@
+header{
+  background-color: #000;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  z-index: 1500;
+  position: fixed;
+}
+
+.left_side {
+  height: 40px;
+  background-color: white;
+  clip-path: polygon(-2000% 100%, 17.5% 0%, 82.5% 0%, 100% 100%);
+}
+
+
+.navbar {
+  height: 50px;
+}
+
+.logo{
+  width: 25%;
+  height: 25px;
+}
+
+.h2 {
+  color: #fff;
+}
+
+/* ヘッダー部分のコーディング */
+@media(max-width: 768px) {
+
+  .logo{
+    width: 40%;
+  }
+
+  .header_ui_btn{
+    height: 17px;
+  }
+
+  .user {
+    width: 100%;
+    margin: 0px 0 10px 0;
+  }
+
+  .review_file {
+    height: 150px;
+    width: 100%;
+  }
+
+  #crear {
+    width: 35%;
+    background-color: #90000e;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5%;
+    margin:20px 0 20px 0;
+  }
+
+  #register_btn {
+    background-color: #000;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+  }
+
+  #register_btn:hover {
+    opacity: 0.5;
+  }
+
+  #register_btn.isActive {
+    color: #90000e;
+  }
+
+}

@@ -38,5 +38,7 @@ mix.js('resources/js/app.js', 'public/js')
 
     //アカウント画面
     .sass('resources/sass/account.scss', 'public/css')
-    .sass('resources/sass/account_header.scss', 'public/css')
+    
+    //登録画面
+    .sass('resources/sass/register_header.scss', 'public/css')
     .sass('resources/sass/register.scss', 'public/css');
