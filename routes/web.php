@@ -16,14 +16,16 @@ Route::get('/', function () {
 });
 
 //投稿詳細画面
-Route::group(['prefix' => 'admin'], function() {
+Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
     Route::get('reviews/create_review_detail', 'Admin\ReviewsController@add');
+    Route::post('reviews/create_review_detail', 'Admin\ReviewsController@add');
 });
 
 //投稿画像画面
 Route::group(['prefix' => 'admin'], function() {
     Route::get('reviews/create_review_files', 'Admin\ReviewsFilesController@add');
 });
+
 
 Auth::routes();
 

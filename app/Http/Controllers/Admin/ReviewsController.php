@@ -12,4 +12,9 @@ class ReviewsController extends Controller
     {
         return view('admin.reviews.create_review_detail');
     }
+    
+    public function create(Request $request)
+    {
+        return redirect('admin.reviews.create_review_detail');
+    }
 }

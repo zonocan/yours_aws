@@ -50952,6 +50952,28 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/account.scss":
+/*!*************************************!*\
+  !*** ./resources/sass/account.scss ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/account_header.scss":
+/*!********************************************!*\
+  !*** ./resources/sass/account_header.scss ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/app.scss":
 /*!*********************************!*\
   !*** ./resources/sass/app.scss ***!
@@ -51007,6 +51029,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/register.scss":
+/*!**************************************!*\
+  !*** ./resources/sass/register.scss ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/review.scss":
 /*!************************************!*\
   !*** ./resources/sass/review.scss ***!
@@ -51041,21 +51074,24 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 0:
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/review.scss ./resources/sass/create_review_files.scss ./resources/sass/review_header.scss ./resources/sass/review_header_btns.scss ./resources/sass/navbar.scss ./resources/sass/nav_btn.scss ./resources/sass/footer.scss ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/navbar.scss ./resources/sass/nav_btn.scss ./resources/sass/footer.scss ./resources/sass/app.scss ./resources/sass/review.scss ./resources/sass/create_review_files.scss ./resources/sass/review_header.scss ./resources/sass/review_header_btns.scss ./resources/sass/account.scss ./resources/sass/account_header.scss ./resources/sass/register.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /home/ec2-user/environment/yours/resources/js/app.js */"./resources/js/app.js");
+__webpack_require__(/*! /home/ec2-user/environment/yours/resources/sass/navbar.scss */"./resources/sass/navbar.scss");
+__webpack_require__(/*! /home/ec2-user/environment/yours/resources/sass/nav_btn.scss */"./resources/sass/nav_btn.scss");
+__webpack_require__(/*! /home/ec2-user/environment/yours/resources/sass/footer.scss */"./resources/sass/footer.scss");
 __webpack_require__(/*! /home/ec2-user/environment/yours/resources/sass/app.scss */"./resources/sass/app.scss");
 __webpack_require__(/*! /home/ec2-user/environment/yours/resources/sass/review.scss */"./resources/sass/review.scss");
 __webpack_require__(/*! /home/ec2-user/environment/yours/resources/sass/create_review_files.scss */"./resources/sass/create_review_files.scss");
 __webpack_require__(/*! /home/ec2-user/environment/yours/resources/sass/review_header.scss */"./resources/sass/review_header.scss");
 __webpack_require__(/*! /home/ec2-user/environment/yours/resources/sass/review_header_btns.scss */"./resources/sass/review_header_btns.scss");
-__webpack_require__(/*! /home/ec2-user/environment/yours/resources/sass/navbar.scss */"./resources/sass/navbar.scss");
-__webpack_require__(/*! /home/ec2-user/environment/yours/resources/sass/nav_btn.scss */"./resources/sass/nav_btn.scss");
-module.exports = __webpack_require__(/*! /home/ec2-user/environment/yours/resources/sass/footer.scss */"./resources/sass/footer.scss");
+__webpack_require__(/*! /home/ec2-user/environment/yours/resources/sass/account.scss */"./resources/sass/account.scss");
+__webpack_require__(/*! /home/ec2-user/environment/yours/resources/sass/account_header.scss */"./resources/sass/account_header.scss");
+module.exports = __webpack_require__(/*! /home/ec2-user/environment/yours/resources/sass/register.scss */"./resources/sass/register.scss");
 
 
 /***/ })

@@ -1,0 +1,87 @@
+/* reset */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+address,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+img,
+form,
+table,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  text-align: left;
+  list-style-type: none;
+  border-collapse: collapse;
+}
+
+textarea {
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+img {
+  border-style: none;
+  display: block;
+}
+
+hr {
+  display: none;
+}
+
+em {
+  font-style: normal;
+}
+
+input {
+  line-height: auto;
+  vertical-align: middle;
+}
+
+strong.more {
+  color: #c30;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.content {
+  margin: 100px 0 100px 0;
+}
+
+@media (max-width: 768px) {
+  .main {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+

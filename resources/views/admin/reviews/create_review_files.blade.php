@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- style -->
          <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
          <link href="{{ secure_asset('css/review_header_btns.css') }}" rel="stylesheet">
          <link href="{{ secure_asset('css/create_review_files.css') }}" rel="stylesheet">
