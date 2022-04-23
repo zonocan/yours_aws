@@ -107,6 +107,7 @@ input[type=file] {
   display: none;
 }
 
+
 @media (max-width: 768px) {
   #crear {
     width: 35%;

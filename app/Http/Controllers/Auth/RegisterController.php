@@ -8,6 +8,9 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
+use Illuminate\Support\Facades\DB;
+use Intervention\Image\ImageManagerStatic as Image;
+
 class RegisterController extends Controller
 {
     /*
@@ -39,6 +42,11 @@ class RegisterController extends Controller
     {
         $this->middleware('guest');
     }
+    
+    /**
+     */
+     
+    
 
     /**
      * Get a validator for an incoming registration request.
@@ -54,6 +62,7 @@ class RegisterController extends Controller
             'password' => ['required', 'string', 'min:8', 'confirmed'],
             'nickname' => ['required', 'string', 'max:20'],
             'text' => ['string', 'max:255'],
+            'avatar' => ['image'],
         ]);
     }
 
@@ -65,12 +74,16 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+        $data['avatar'] = request()->file('avatar')->getClientOriginalName();
+        request()->file('avatar')->storeAs('public/profile_files',$data['avatar']);
+        
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
             'nickname' => $data['nickname'],
             'text' => $data['text'],
+            'avatar' => $data['avatar'],
         ]);
     }
 }

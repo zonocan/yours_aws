@@ -1,8 +1,5 @@
 <head>
-    //style
-    <link href="{{ asset('css/register.css') }}" rel="stylesheet">
-    
-    //js
+    <!--js-->
     <script src="{{ mix('js/register.js') }}"></script>
 </head>
 
@@ -16,9 +13,22 @@
                 <div class="card-header">{{ __('アカウントの作成') }}</div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}" id="create_acount_form">
+                    <form method="POST" action="{{ route('register') }}" enctype="multipart/form-data" id="create_acount_form">
                         @csrf
 
+                        <div class="form-group row mt-3">
+                            <label class="profeal_file mx-1">
+                                <img src="{{ asset('acount_ui/no_img.png') }}" id="no_img">
+                                <input id="profeal_file" type="file" name="avatar" class="@error('avatar') is-invalid @enderror">
+                            </label>
+                            <!-- プロフィール写真の表示 -->
+                            <img id="preview" style="display:none">
+                        </div>
+                        
+                        <div class="row">
+                            <button class="mt-3" id="crear" style="display:none">写真をクリア</button>
+                        </div>
+                        
                         <div class="form-group row mt-3">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('アカウント') }}</label>
 
